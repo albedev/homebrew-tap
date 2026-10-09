@@ -2,25 +2,25 @@
 cask "whaletop" do
   binary "whaletop", target: "wtop"
 
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      sha256 "56988c23ebb1d1c1ada99d10e1d5b5245d34b653a2ca17b7295ec5102108a247"
+      sha256 "3ba5624505db30bc6e4087a6446788cf5e8ac59718022ecd545ef1ac5800d2aa"
       url "https://github.com/albedev/whaletop/releases/download/v#{version}/whaletop_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a134c4e6e76572681277a4d627821d1c648961b4b77d85624375586b3716bafd"
+      sha256 "7d41a3a1912abf21918f5b84f4b89de9b7bfc7f0a60aabaae771a8fa31e8f87e"
       url "https://github.com/albedev/whaletop/releases/download/v#{version}/whaletop_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "53b11a28812bd5a210cd7fe2ad6b5bc237e2f5da4637ea826aeba194a5508071"
+      sha256 "f7f210180e28f7518f2355c60ae21d8763a193c9175d57911fff4bc1d50d1685"
       url "https://github.com/albedev/whaletop/releases/download/v#{version}/whaletop_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6c88da85db25feb8398ef303f4941ded008a5e9b32a6c385e8a1499f7128021a"
+      sha256 "ff3d086d73f6af4e059607bd8db90e06220718055f7cdc485d7ae3985e46948e"
       url "https://github.com/albedev/whaletop/releases/download/v#{version}/whaletop_#{version}_linux_amd64.tar.gz"
     end
   end
