@@ -3,6 +3,7 @@ class Ime < Formula
   homepage "https://github.com/albedev/ime"
   url "https://github.com/albedev/ime/releases/download/v0.1.1/ime-0.1.1-macos-universal.tar.gz"
   sha256 "75a02bee7a2d94ce688c0058f04603c487e98b0012760d4bdbede7d1c26d7cbf"
+  license "MIT"
 
   depends_on :macos
 
